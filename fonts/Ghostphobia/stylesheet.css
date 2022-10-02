@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ghostphobia';
+    src: url('Ghostphobia.woff2') format('woff2'),
+        url('Ghostphobia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

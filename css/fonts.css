@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+  font-family: "Ghostphobia";
+  src: url("../fonts/Ghostphobia/Ghostphobia.woff2") format("woff2"),
+    url("../fonts/Ghostphobia/Ghostphobia.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}

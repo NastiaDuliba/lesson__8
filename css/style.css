@@ -1,0 +1,120 @@
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.main {
+}
+.page__container h2 {
+  color: #1e212c;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+}
+.__block {
+  max-width: 600px;
+}
+.about__block {
+  margin: 120px 0 118px 0;
+}
+
+.about__title {
+  margin: 0 0 40px 0;
+}
+.about__text,
+.cody__text {
+  color: #424551;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0 0 48px 0;
+}
+.about-list {
+}
+.about-list__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1e212c;
+  margin: 0 0 24px 0;
+}
+.about-list__li {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.about-list__li li {
+  min-height: 26px;
+  padding: 0 0 0 32px;
+  background: url("../img/check.png") 0 5px no-repeat;
+}
+* li:not(:last-child) {
+  margin: 0 0 4px 0;
+}
+
+.cody__title {
+  margin: 0 0 32px 0;
+}
+.cody__title h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+}
+.cody__title h2 {
+  margin: 0 0 16px 0;
+}
+.cody__title h3 {
+  font-size: 20px;
+  line-height: 150%;
+  color: #787a80;
+}
+.cody__list {
+  margin: 0 0 32px 0;
+}
+
+.cody__text {
+  margin: 0 0 40px 0;
+}
+.cody__list li:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/cody-list__icons/star.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+}
+.cody__list li:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/cody-list__icons/play.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+}
+.cody__list li:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/cody-list__icons/profile.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+}
+
+.footer {
+  margin: 0 0 50px 0;
+}
+.footer__bottom {
+  text-align: center;
+}
+.bottom__link a {
+  font-weight: 900;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}

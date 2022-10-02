@@ -1,0 +1,541 @@
+body {
+}
+
+.block {
+  margin: 20px 0;
+}
+.start__buttom {
+  text-align: center;
+}
+h1.start:active {
+  background-color: #141ea0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h1.start:active + div {
+  opacity: 1;
+  transition: transform 3s;
+}
+h1.start {
+  color: rgba(90, 16, 16, 0.892);
+  border: 3px solid rgba(90, 16, 16, 0.892);
+  display: inline-block;
+  margin: 50px 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: "Ghostphobia", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  border-radius: 30px;
+  padding: 20px 40px;
+  box-shadow: 0 9px #999;
+}
+.buttom__subtitle {
+  opacity: 0;
+  text-align: center;
+}
+.start__subtitle {
+  display: inline-block;
+  border: 3px solid rgba(2, 0, 36, 1);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(171, 48, 48);
+}
+
+.block__items {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(31, 9, 121, 1) 21%,
+    rgba(152, 7, 39, 1) 37%,
+    rgba(16, 65, 177, 1) 78%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 3px solid black;
+  overflow: hidden;
+}
+
+.rat:hover {
+  background: url("../img/game/rat.jpeg") 0 0 / cover no-repeat;
+}
+.rat p {
+  padding: 10px;
+  opacity: 0;
+}
+.rat:active p {
+  opacity: 1;
+}
+.chmonya:hover {
+  background: url("../img/game/chmonya.jpeg") 0 0 / cover no-repeat;
+}
+.chmonya p {
+  opacity: 0;
+  padding: 3px;
+}
+.chmonya:active p {
+  opacity: 1;
+}
+.chmonya:active {
+  background: #4c4e66;
+}
+.vlk:hover {
+  background: url("../img/game/vlk.jpeg") 0 0 / cover no-repeat;
+}
+.vlk p {
+  opacity: 0;
+  padding: 3px;
+}
+.vlk:active {
+  background: #999;
+}
+.vlk:active p {
+  opacity: 1;
+}
+.cry:hover {
+  background: url("../img/game/cry.png") 0 0 / cover no-repeat;
+}
+.cry:active p {
+  opacity: 1;
+}
+.cry p {
+  opacity: 0;
+  padding: 3px;
+}
+.cry:active {
+  background: #999;
+}
+.vika:hover {
+  background: url("../img/game/vika.jpeg") 0 0 / cover no-repeat;
+}
+.vika p {
+  opacity: 0;
+  padding: 3px;
+}
+.vika:active p {
+  opacity: 1;
+}
+.vika:active {
+  background: rgb(144, 23, 23);
+}
+.jon:hover {
+  background: url("../img/game/jon.jpeg") 0 0 / cover no-repeat;
+}
+.jon:active {
+  background: #999;
+}
+.jon:active p {
+  opacity: 1;
+}
+.jon p {
+  opacity: 0;
+  padding: 3px;
+}
+
+.kat img:hover {
+  opacity: 1;
+}
+.kat img {
+  opacity: 0;
+  max-width: 100%;
+  min-height: 100px;
+}
+.kat a {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(31, 9, 121, 1) 21%,
+    rgba(152, 7, 39, 1) 37%,
+    rgba(16, 65, 177, 1) 78%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: block;
+}
+#buttom__maze {
+  text-align: center;
+}
+.start__maze {
+  display: inline-block;
+  border: 3px solid #141ea0;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: burlywood;
+}
+p.start__maze {
+  margin: 10px 0 0 0;
+}
+.block__row-1,
+.block__row-2,
+.block__row-3,
+.block__row-4,
+.block__row-5,
+.block__row-6,
+.block__row-7 {
+  display: inline-block;
+}
+/*=============block__row-1 img ==========*/
+.block__row-1 .block__items:nth-child(1):hover {
+  background: url("../img/row_1/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(2):hover {
+  background: url("../img/row_1/img_2.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(3):hover {
+  background: url("../img/row_1/img_3.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(4):hover {
+  background: url("../img/row_1/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(6):hover {
+  background: url("../img/row_1/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(7):hover {
+  background: url("../img/row_1/img_7.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(8):hover {
+  background: url("../img/row_1/img_8.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(9):hover {
+  background: url("../img/row_1/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(10):hover {
+  background: url("../img/row_1/img_10.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-1 .block__items:nth-child(11):hover {
+  background: url("../img/row_1/img_11.jpeg") 0 0 / cover no-repeat;
+}
+/*=============block__row-1 img ==========*/
+/*=============block__row-2 img ==========*/
+.block__row-2 .block__items:nth-child(1):hover {
+  background: url("../img/row_2-5/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(2):hover {
+  background: url("../img/row_2-5/img_2.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(3):hover {
+  background: url("../img/row_2-5/img_3.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(4):hover {
+  background: url("../img/row_2-5/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(5):hover {
+  background: url("../img/row_2-5/img_5.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(6):hover {
+  background: url("../img/row_2-5/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(7):hover {
+  background: url("../img/row_2-5/img_7.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(9):hover {
+  background: url("../img/row_2-5/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(10):hover {
+  background: url("../img/row_2-5/img_10.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-2 .block__items:nth-child(11):hover {
+  background: url("../img/row_2-5/img_11.jpeg") 0 0 / cover no-repeat;
+}
+/*=============block__row-2 img ==========*/
+/*=============block__row-3 img ==========*/
+
+.block__row-3 .block__items:nth-child(1):hover {
+  background: url("../img/row_3-6/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(2):hover {
+  background: url("../img/row_3-6/img_2.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(3):hover {
+  background: url("../img/row_3-6/img_3.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(4):hover {
+  background: url("../img/row_3-6/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(5):hover {
+  background: url("../img/row_3-6/img_5.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(6):hover {
+  background: url("../img/row_3-6/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(7):hover {
+  background: url("../img/row_3-6/img_7.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(8):hover {
+  background: url("../img/row_3-6/img_8.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(9):hover {
+  background: url("../img/row_3-6/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(10):hover {
+  background: url("../img/row_3-6/img_10.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-3 .block__items:nth-child(11):hover {
+  background: url("../img/row_3-6/img_11.jpeg") 0 0 / cover no-repeat;
+}
+/*=============block__row-3 img ==========*/
+/*=============block__row-4 img ==========*/
+.block__row-4 .block__items:nth-child(1):hover {
+  background: url("../img/row_4-7/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(2):hover {
+  background: url("../img/row_4-7/img_2.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(3):hover {
+  background: url("../img/row_4-7/img_3.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(4):hover {
+  background: url("../img/row_4-7/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(5):hover {
+  background: url("../img/row_4-7/img_5.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(6):hover {
+  background: url("../img/row_4-7/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(8):hover {
+  background: url("../img/row_4-7/img_8.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(9):hover {
+  background: url("../img/row_4-7/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(10):hover {
+  background: url("../img/row_4-7/img_10.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-4 .block__items:nth-child(11):hover {
+  background: url("../img/row_4-7/img_11.jpeg") 0 0 / cover no-repeat;
+}
+/*=============block__row-4 img ==========*/
+/*=============block__row-5 img ==========*/
+.block__row-5 .block__items:nth-child(1):hover {
+  background: url("../img/row_2-5/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(2):hover {
+  background: url("../img/row_2-5/img_2.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(3):hover {
+  background: url("../img/row_2-5/img_3.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(4):hover {
+  background: url("../img/row_2-5/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(5):hover {
+  background: url("../img/row_2-5/img_5.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(6):hover {
+  background: url("../img/row_2-5/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(8):hover {
+  background: url("../img/row_2-5/img_8.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(9):hover {
+  background: url("../img/row_2-5/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-5 .block__items:nth-child(11):hover {
+  background: url("../img/row_2-5/img_11.jpeg") 0 0 / cover no-repeat;
+}
+/*=============block__row-5 img ==========*/
+/*=============block__row-6 img ==========*/
+
+.block__row-6 .block__items:nth-child(1):hover {
+  background: url("../img/row_3-6/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(2):hover {
+  background: url("../img/row_3-6/img_2.jpeg") 0 0 / cover no-repeat;
+}
+
+.block__row-6 .block__items:nth-child(4):hover {
+  background: url("../img/row_3-6/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(5):hover {
+  background: url("../img/row_3-6/img_5.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(6):hover {
+  background: url("../img/row_3-6/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(7):hover {
+  background: url("../img/row_3-6/img_7.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(8):hover {
+  background: url("../img/row_3-6/img_8.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(9):hover {
+  background: url("../img/row_3-6/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(10):hover {
+  background: url("../img/row_3-6/img_10.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-6 .block__items:nth-child(11):hover {
+  background: url("../img/row_3-6/img_11.jpeg") 0 0 / cover no-repeat;
+}
+/*=============block__row-6 img ==========*/
+/*=============block__row-7 img ==========*/
+.block__row-7 .block__items:nth-child(1):hover {
+  background: url("../img/row_4-7/img_1.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(2):hover {
+  background: url("../img/row_4-7/img_2.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(3):hover {
+  background: url("../img/row_4-7/img_3.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(4):hover {
+  background: url("../img/row_4-7/img_4.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(5):hover {
+  background: url("../img/row_4-7/img_5.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(6):hover {
+  background: url("../img/row_4-7/img_6.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(8):hover {
+  background: url("../img/row_4-7/img_8.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(9):hover {
+  background: url("../img/row_4-7/img_9.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(10):hover {
+  background: url("../img/row_4-7/img_10.jpeg") 0 0 / cover no-repeat;
+}
+.block__row-7 .block__items:nth-child(11):hover {
+  background: url("../img/row_4-7/img_11.jpeg") 0 0 / cover no-repeat;
+}
+.answers {
+  margin: 0 0 50px 0;
+}
+.answers__title {
+}
+.answers {
+}
+.answers__title {
+  margin: 0 0 30px 0;
+}
+
+.number {
+  display: none;
+}
+.answers__list li:nth-child(odd) {
+  color: #141ea0;
+}
+.answers__list p::before {
+  content: " ";
+  background: url("../img/ikons/face.png") 0 0 / cover no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.answers__list p::after {
+  content: " ";
+  background: url("../img/ikons/cloud.png") 0 0 / cover no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.answers__list {
+  max-width: 400px;
+}
+.answers__list li:hover .number {
+  display: inline-block;
+  max-width: 100px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  background: rgb(79, 197, 197);
+}
+li p {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0 0 10px 0;
+  max-width: 400px;
+  line-height: 1.5;
+  background: #4c4e66;
+  color: aliceblue;
+}
+.maze {
+  background-color: #4c4e66;
+}
+.start__maze:hover + div {
+  visibility: visible;
+}
+.stage_1 {
+  visibility: hidden;
+  width: 20px;
+  height: 200px;
+  background-color: #141ea0;
+  margin: 0 600px;
+}
+.stage_1:hover {
+  visibility: visible;
+}
+.stage_1:hover + div {
+  visibility: visible;
+}
+.stage_2 {
+  visibility: hidden;
+  width: 300px;
+  height: 30px;
+  background-color: #141ea0;
+  margin: 0 600px;
+}
+.stage_2:hover {
+  visibility: visible;
+}
+.stage_2:hover + div {
+  visibility: visible;
+}
+.stage_3 {
+  visibility: hidden;
+  width: 30px;
+  height: 200px;
+  background-color: #141ea0;
+  margin: 0 870px;
+}
+.stage_3:hover {
+  visibility: visible;
+}
+.stage_4:hover {
+  visibility: visible;
+}
+.stage_3:hover + div {
+  visibility: visible;
+}
+.stage_4 {
+  visibility: hidden;
+  width: 300px;
+  height: 30px;
+  background-color: #141ea0;
+  margin: 0 600px;
+}
+.stage_5 {
+  visibility: hidden;
+  width: 100px;
+  height: 100px;
+  background-color: #141ea0;
+  margin: 0 600px;
+  padding: 40px 0;
+  text-align: center;
+}
+.stage_4:hover + div {
+  visibility: visible;
+}
+.stage_5:hover {
+  visibility: visible;
+}
+.stage_5:active + div {
+  visibility: visible;
+}
+.stage_5:active {
+  background-color: #12186c;
+}
+.stage_6 {
+  visibility: hidden;
+  width: 400px;
+  height: 400px;
+  background-color: #141ea0;
+  margin: -300px 200px;
+  background: url("../img/game/vika.jpeg") 0 0 / cover no-repeat;
+}
