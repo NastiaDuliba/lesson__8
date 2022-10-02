@@ -41,7 +41,7 @@ body {
 }
 .about-list__li {
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.6;
   color: #424551;
 }
 .about-list__li li {
